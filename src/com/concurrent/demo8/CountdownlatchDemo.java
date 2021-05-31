@@ -22,6 +22,7 @@ public class CountdownlatchDemo {
         //等到减少到0以后main线程再继续执行下去
         countDownLatch.await();
         System.out.println("可以关门了");
+        System.out.println("该睡觉了");
 
 
 
